@@ -16,10 +16,10 @@ if "model" not in st.session_state:
 def app():
     st.subheader('RNN-LSTM Based Typhoon Prediction in the Philippines from 2000 - 2023')
     
-    text = """Asie Jay E. Fondales | BSCS 3B AI)
+    text = """Asie Jay E. Fondales | BSCS 3B AI
     \nCCS 229 - Intelligent Systems
-    *College of Information and Communications Technology
-    *##West Visayas State University##"""
+    College of Information and Communications Technology
+    West Visayas State University"""
     st.text(text)
 
     text = """This Streamlit app utilizes a bi-directional Recurrent Neural Network 
