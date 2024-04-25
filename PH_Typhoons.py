@@ -30,9 +30,8 @@ def app():
     preparedness efforts."""
     st.write(text)
 
-    text = """The data is obtained from the following site : 
-    https://en.wikipedia.org/wiki/List_of_typhoons_in_the_Philippines_(2000%E2%80%93present)"""
-    st.write(text)  
+    link_text = "Typhoon in the Philippines (2000 - 2023)"
+    st.markdown(f"[**{link_text}**](https://en.wikipedia.org/wiki/List_of_typhoons_in_the_Philippines_(2000%E2%80%93present))") 
 
     df = pd.read_csv('./fondales-ph-typhoons.csv', header=0)
 
