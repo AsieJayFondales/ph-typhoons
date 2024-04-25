@@ -32,6 +32,7 @@ def app():
     
     text = """The data is obtained from a Wikipedia list of typhoons in the Philippines (2000-present)."""
     link_text = "Typhoon in the Philippines (2000 - 2023)"
+    st.text(text)
     st.markdown(f"[**{link_text}**](https://en.wikipedia.org/wiki/List_of_typhoons_in_the_Philippines_(2000%E2%80%93present))") 
 
     df = pd.read_csv('./fondales-ph-typhoons.csv', header=0)
